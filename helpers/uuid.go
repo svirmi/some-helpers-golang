@@ -6,7 +6,7 @@ import (
 	"github.com/google/uuid"
 )
 
-func NewUuid(withoutHyphen bool) string {
+func (hf *HelpersFunctions) NewUuid(withoutHyphen bool) string {
 	uuidWithHyphen := uuid.New()
 
 	if withoutHyphen {
