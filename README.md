@@ -1,2 +1,2 @@
 # some-helpers-golang
-Some external helper functions
+Some helper functions to use somewhere
