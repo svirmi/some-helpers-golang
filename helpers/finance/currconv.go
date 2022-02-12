@@ -45,7 +45,7 @@ type fsaApiResponseDetails struct {
 
 func NewFinanceFunctions(apiUrl, apiKey string) FinanceFunctions {
 	ff := FinanceFunctions{
-		ApiUrl: apiKey,
+		ApiUrl: apiUrl,
 		ApiKey: apiKey,
 	}
 
